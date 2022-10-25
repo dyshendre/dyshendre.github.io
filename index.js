@@ -38,3 +38,12 @@ fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 })
     .catch(error => console.error('Error!', error.message))
 })
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
