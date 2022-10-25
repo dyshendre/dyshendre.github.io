@@ -1,530 +1,233 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/skins/color-1.css" />
-    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Shendre | PortFolio</title>
+    <link rel="icon" href="https://i.ibb.co/XxVMRh2/Biswarup-Logo.png" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="github.css"/>
 
-     <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled />
-
-      <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled />
-
-       <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled />
-
-        <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled />
-
+    <script src="https://kit.fontawesome.com/2e6c5ea9e6.js" crossorigin="anonymous"></script>
     
-    <!-- style-switcher css file -->
-    <link rel="stylesheet" href="css/style-switcher.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-  </head>
-  <body >
-    <!-- ==== main container start ==== -->
-    <div class="main-container" >
-      <!-- ==== Aside Start ==== -->
-      <div class="aside">
-        <div class="logo">
-          <a href="#"> <span>D</span>inesh</a>
-        </div>
-        <div class="nav-toggler">
-          <span></span>
-        </div>
-        <ul class="nav">
-          <li>
-            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
-          </li>
-          <li>
-            <a href="#about"><i class="fa fa-user"></i> About</a>
-          </li>
-          <li>
-            <a href="#services"><i class="fa fa-list"></i>Services</a>
-          </li>
-          <li>
-            <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
-          </li>
+</head>
+<body>
+    <!---------------- Navbar ------------------->
+    <nav class="navbar">
+        <h1 class="logo">Dinesh</h1>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#github">Github</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="images/Dinesh-Shendre-Resume.pdf">Resume</a></li>
+            <i class="fas fa-xmark" onclick="closemenu()"></i>
         </ul>
-      </div>
-      <!-- ==== Aside End ==== -->
-      <!-- ==== main content start ==== -->
-
-      <div class="main-content">
-        <!-- ==== Home Section start ==== -->
-        <section class="home section " id="home">
-          <div class="container">
-            <div class="row">
-              <div class="home-info padd-15">
-                <!-- <h4>
-                  Great <span class="name">web design</span> without functionality <br> is like a sports car
-                  with  no engine.
-                </h4> -->
-                <h3 class="hello">
-                  Hello, my name is <span class="name">Dinesh Shendre</span>
-                </h3>
-                <h3 class="my-profession">
-                  I' m a <span class="typing">Java Backend Developer</span>
-                </h3>
-               
-                <p>
-                  I'm a Java Backend Developer.Looking for a suitable work
-                  opportunity, preferably in an IT company, which renders a
-                  challenging career, providing the opportunities to enhance my
-                  educational and technical skills that ultimately deliver
-                  maximum benefit to the company and scale a new high in my
-                  career.
-                </p>
-                <a href="#contact" class="btn hire-me">Hire me</a>
-              </div>
-              <div class="home-img padd-15">
-                <img src="image/hero2.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- ==== Home Section End ==== -->
-        <!-- ==== About Section start ==== -->
-        <section class="about section " id="about">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>About Me</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="about-content padd-15">
-                <div class="row">
-                  <div class="about-text padd-15">
-                    <h3>
-                      I'm Dinesh Shendre and <span>JAVA Backend Developer</span>
-                    </h3>
-
-                    <h2 class="quotes">
-                      Great <span class="name">web design</span> without functionality <br> is like a sports car
-                  with  no engine.
-                    </h2>
-                  </div>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <!--------------------------- Header ------------------------>
+    <div id="header">
+        <div class="container" id="text-content">
+           
+           
+            <div class="header-text">
+                <h1>Hi Everyone, <br> I'm <span class="typing">Dinesh Shendre</span><br></h1>
+                <div class="wrapper">
+                    <div class="static">and I'm a </div>
+                    <ul class="dynamic">
+                        <li><span>Coder</span></li>
+                        <li><span>Java Backend Developer</span></li>
+                        <!-- <li><span>Digital Content Creator</span></li> -->
+                    </ul>
                 </div>
-                <div class="row">
-                  <div class="personal-info padd-15">
-                    <div class="info-item padd-15">
-                      <p>Email Address : <a href="mailto:dyshendre@gmail.com">dyshendre@gmail.com</a></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Phone Number : <a href="tel:9420515524">9420515524</a></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Location : <span>Gondia, Maharashtra</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Degree : <span>Mechanical</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>
-                        LinkedIn URL:
-                        <span
-                          ><a href="https://www.linkedin.com/in/dinesh-shendre-00030723b/"
-                            >https://www.linkedin.com/in/dinesh-shendre-00030723b/</a
-                          ></span
-                        >
-                      </p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>
-                        GitHub :
-                        <span
-                          ><a href="https://github.com/dyshendre"
-                            >https://github.com/dyshendre</a
-                          ></span
-                        >
-                      </p>
-                    </div>
-                    <div class="row">
-                      <div class="buttons padd-15">
-                        <a href="image/Dinesh Shendre Resume.png"  download class="btn">Download Resume</a>
-                        <a href="#contact" class="btn hire-me">Hire Me</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="skills padd-15">
-                    <div class="row">
-                      <div class="skill-item padd-15">
-                        <h5>HTML</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 75%"></div>
-                          <div class="skill-percent">75%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>CSS</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 76%"></div>
-                          <div class="skill-percent">76%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>JavaScript</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 80%"></div>
-                          <div class="skill-percent">80%</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="smallWrapper">
+                    <h3>and I'm a <span style="color: #ff004f;">Java Backend Developer</span> </h3>
                 </div>
-                <div class="row">
-                  <div class="education padd-15">
-                    <h3 class="title">Education</h3>
-                    <div class="row">
-                      <div class="timeline-box padd-15">
-                        <div class="timeline shadow-dark">
-                          <!-- ==== timeline items ==== -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> April-2022 - December-2022
-                            </h3>
-                            <h4 class="timeline-title">JAVA Backend Development Course <br>MASAI-Bangalore</h4>
-                            <!-- <p class="timeline-text">
-                             Graduated with FSD and was Awarded certification of MASAI Power Project.
-                            </p> -->
-                          </div>
-                          <!-- ==== timeline items ==== -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> Aug-2014 - May-2018
-                            </h3>
-                            <h4 class="timeline-title">Bachelor of Engineering: Mechanical <br>KDK College, Nagpur</h4>
-                            <!-- <p class="timeline-text">
-                              Graduated with an 7.17 CGPA <br> Member of NCC Army
-                              Lorem ipsum dolor, sit amet consectetur
-                              adipisicing elit. Optio quaerat culpa quod
-                              explicabo soluta voluptatibus, consequatur quia
-                              modi quos eaque, dolor quae, similique doloremque
-                              commodi.
-                            </p> -->
-                          </div>
-                          <!-- ==== timeline items ==== -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> Passed in 2014 
-                            </h3>
-                            <h4 class="timeline-title">
-                              Higher Secondary Education
-                  <!-- <br> St. Joseph's Convent Sr. Sec. School <br>
-                    Sagar M.P -->
-                    </h4>
-                            <p class="timeline-text">
-                              <!-- Lorem ipsum dolor, sit amet consectetur
-                              adipisicing elit. Optio quaerat culpa quod
-                              explicabo soluta voluptatibus, consequatur quia
-                              modi quos eaque, dolor quae, similique doloremque
-                              commodi. -->
-                            </p>
-                          </div>
-                          <!-- ==== timeline items ==== -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> Passed in 2012
-                            </h3>
-                            <h4 class="timeline-title">
-                              Senior Secondary Education 
-                              <!-- <br> St. Joseph's Convent Sr. Sec. School <br> Sagar M.P -->
-                            </h4>
-                            <p class="timeline-text">
-                              <!-- St. Joseph's Convent Sr. Sec. School -->
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-         </section>
-
-        <!-- ==== About Section End ==== -->
-        <!-- ==== Service Section start ==== -->
-
-        <section class="service section " id="services">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Services</h2>
-              </div>
+                
+                <!-- <a href="images/Dinesh-Shendre-Resume.pdf" class="btn" download >Resume</a> -->
             </div>
             
-             <div class="row">
-              <!-- ==== Service Item start ==== -->
-              <div class="service-item padd-15">
-               <div class="service-item-inner">
-                  <div class="icon">
-                     <i class="fa fa-server"></i>
-                  </div>
-                  <h4>Node Js Development</h4>
-                  <p>Develop quality applications with Me. NodeJs development services and get high-performing RESTful API servers and apps capable of handling high traffic. Enjoy the benefits of NodeJS, the JavaScript runtime environment & MERN Stack development services.</p>
-               </div>
-              </div>
-              <!-- ==== Service Item End ==== -->
-              <!-- ==== Service Item start ==== -->
-              <div class="service-item padd-15">
-               <div class="service-item-inner">
-                  <div class="icon">
-                     <i class="fa fa-laptop-code"></i>
-                  </div>
-                  <h4>Web Services and API Development</h4>
-                  <p>My expertise in MERN Stack Web services and API development services to create quality API and web services that integrate seamlessly with your mobile, web, or cloud apps and deliver high-quality performance.</p>
-               </div>
-              </div>
-              <!-- ==== Service Item End ==== -->
-              <!-- ==== Service Item start ==== -->
-              <div class="service-item padd-15">
-               <div class="service-item-inner">
-                  <div class="icon">
-                     <i class="fa fa-cloud"></i>
-                  </div>
-                  <h4>Secure</h4>
-                  <p>Integrating highly secure functionality to ensure that your data and your user’s data are safe.</p>
-               </div>
-              </div>
-              <!-- ==== Service Item End ==== -->
- <!-- ==== Service Item start ==== -->
-              <div class="service-item padd-15">
-               <div class="service-item-inner">
-                  <div class="icon">
-                     <i class="fa fa-chair"></i>
-                  </div>
-                  <h4>Highly Scalable</h4>
-                  <p>MERN framework develops web apps or dynamic websites that are highly scalable solutions for your business</p>
-               </div>
-              </div>
-              <!-- ==== Service Item End ==== -->
-              <!-- ==== Service Item start ==== -->
-              <div class="service-item padd-15">
-               <div class="service-item-inner">
-                  <div class="icon">
-                     <i class="fa fa-mobile"></i>
-                  </div>
-                  <h4>Mobile Friendly</h4>
-                  <p>Solutions developed on MERN Stack are responsive and hence can be accessed on any device across the globe.</p>
-               </div>
-              </div>
-              <!-- ==== Service Item End ==== -->
-              <!-- ==== Service Item start ==== -->
-              <div class="service-item padd-15">
-               <div class="service-item-inner">
-                  <div class="icon">
-                     <i class="fa fa-globe"></i>
-                  </div>
-                  <h4>High-Performance</h4>
-                  <p>A faster yet smoother user experience that increases the productivity of your business </p>
-               </div>
-              </div>
-              <!-- ==== Service Item End ==== -->
             </div>
-            
-          </div>
-         </section>
-
-        <!-- ==== Service Section End ==== -->
-
-        <!-- ==== Portfolio Section Start ==== -->
-        <section class="portfolio section " id="portfolio">
-         <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Portfolio</h2>
-              </div>
-            </div>
-            <div class="row">
-               <div class="portfolio-heading padd-15">
-                  <h2>My Last Projects :</h2>
-               </div>
-            </div>
-            <div class="row">
-               <!-- ==== Portfolio item Start ==== -->
-        <div class="portfolio-item padd-15">
-         <a href="https://ketto-official-clone.netlify.app/index.html"><div class="portfolio-item-inner shadow-dark">
-          <img src="image/portfolio/portfolio-5.jpg" alt="">
-       </div></a>
         </div>
-        <!-- ==== Portfolio item End ==== -->
-        <!-- ==== Portfolio item Start ==== -->
-        <div class="portfolio-item padd-15">
-        <a href="https://ornate-paletas-950328.netlify.app/"> <div class="portfolio-item-inner shadow-dark dotkey">
-            <img src="image/portfolio/portfolio-4.jpg" alt="">
-         </div></a>
-        </div>
-        <!-- ==== Portfolio item End ==== -->
-        <!-- ==== Portfolio item Start ==== -->
-        <div class="portfolio-item padd-15">
-        <a href="https://jovial-dusk-c6ab4b.netlify.app/"> <div class="portfolio-item-inner shadow-dark">
-            <img src="image/portfolio/portfolio-2.jpg" alt="">
-         </div></a>
-        </div>
-        <!-- ==== Portfolio item End ==== -->
-        
-         <!-- ==== Portfolio item Start ==== -->
-        <!-- <div class="portfolio-item padd-15">
-         <div class="portfolio-item-inner shadow-dark">
-            <img src="image/portfolio/portfolio-2.jpg" alt="">
-         </div>
-        </div> -->
-        <!-- ==== Portfolio item End ==== -->
-         <!-- ==== Portfolio item Start ==== -->
-        <!-- <div class="portfolio-item padd-15">
-         <div class="portfolio-item-inner shadow-dark">
-            <img src="image/portfolio/portfolio-2.jpg" alt="">
-         </div>
-        </div> -->
-        <!-- ==== Portfolio item End ==== -->
-         <!-- ==== Portfolio item Start ==== -->
-        <!-- <div class="portfolio-item padd-15">
-         <div class="portfolio-item-inner shadow-dark">
-            <img src="image/portfolio/portfolio-2.jpg" alt="">
-         </div>
-        </div> -->
-        <!-- ==== Portfolio item End ==== -->
-
-
-            </div>
-         </div>
-        </section>
-
-
-        <!-- ==== Portfolio Section End ==== -->
-        <!-- ==== Contact Section Start ==== -->
-        <section class="contact section" id="contact">
-         <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Contact Me</h2>
-              </div>
-            </div>
-            <h3 class="contact-title padd-15">Have You Any Questions ? </h3>
-            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
-            <div class="row">
-               <!-- ==== contact info item start ==== -->
-               <div class="contact-info-item padd-15">
-                  <div class="icon"><i class="fa fa-mobile"></i></div>
-                  <h4>Call us on</h4>
-                  <p><a href="tel:7058635994">7058635994</a></p>
-               </div>
-               <!-- ==== contact info item End ==== -->
-                 <!-- ==== contact info item start ==== -->
-               <div class="contact-info-item padd-15">
-                  <!-- <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-                  <h4>Office</h4>
-                  <p>Sagar M.p</p> -->
-               </div>
-               <!-- ==== contact info item End ==== -->
-                <!-- ==== contact info item start ==== -->
-               <div class="contact-info-item padd-15">
-                  <div class="icon"><i class="fa fa-envelope"></i></div>
-                  <h4>Email</h4>
-                  <p><a href="mailto:dyshendre@gmail.com">dyshendre@gmail.com</a></p>
-               </div>
-               <!-- ==== contact info item End ==== -->
-              
-            </div>
-             <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-            <h4 class="contact-sub-title padd-15">I'M VERY RESONSIVE TO MESSAGES</h4>
-            <!-- ==== contact form ==== -->
-            <div class="row">
-               <div class="contact-form padd-15">
-                  <div class="row">
-                     <div class="form-item col-6 padd-15">
-                        <div class="form-group">
-                           <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                     </div>
-                     <div class="form-item col-6 padd-15">
-                        <div class="form-group">
-                           <input type="email" class="form-control" placeholder="Email">
-                        </div>
-                     </div>
-                    
-                     </div>
-                      <div class="row">
-                        <div class="form-item col-12 padd-15">
-                        <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Subject">
-                        </div>
-                     </div>
-                     </div>
-                     <div class="row">
-                        <div class="form-item col-12 padd-15">
-                        <div class="form-group">
-                         <textarea name="" class="form-control" placeholder="Message"></textarea>
-                        </div>
-                     </div>
-                      </div>
-                     
-                     <div class="row">
-                        <div class="form-item col-12 padd-15">
-                        <button type="submit" class="btn">Send Message</button>
-                     </div>
-                  </div>
-
-
-         </div>
-         
-        </section>
-
-
-
-        <!-- ==== Contact Section End ==== -->
-
-         <!-- ==== whatsapp Section Start ==== -->
-
-         <div class="Whatsapp_float">
-          <a href="https://wa.me/917058635994" target="_blank"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg" ></a>
-         </div>
-         <!-- ==== whatsapp Section End ==== -->
-
-
-      </div>
-      <!-- ==== main content End ==== -->
     </div>
+    <!----------------- About --------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Dinesh-Shendre.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A passionate JAVA Back-End Developer, Dedicated to developing robust applications that interact with the Backend part of web applications. Extensive expertise in website architecture, design, and web design, and web API designs. Problem-solving mindset with a goal to optimize my application for better stability and speed. Love to work in a team.</p>
 
-    <!-- ==== main container End ==== -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------- Services ----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 >My Skills</h1>
+            <div class="services-list">
+                <div class="details">
+                    <p class="skill-ed active" onclick="opentab('Technical')">Technical Skills</p>
+                    <p class="skill-ed" onclick="opentab('Skills')">Soft Skills</p>
+                    <p class="skill-ed" onclick="opentab('Education')">Education</p>
+                 </div>
+                <div class="contents active-tab" id="Technical">
+                    <ul>
+                        <li><i id="java" class="fa-brands fa-java"></i><span>Java</span><br>Backend Web/App Devlopment</li>
+                        <li><i id="sql" class="fa-solid fa-database"></i><span>MySQL</span> <br>Database Management</li>
+                        <li><i id="js" class="fa-brands fa-js"></i><span>JavaScript</span><br>Interactive Web/App Devlopment</li>
+                        <li><i id="html" class="fa-brands fa-html5"></i><span>Html & Css</span><br>Frontend Web/App Devlopment</li>
+                    </ul>
+                </div>
+                <div class="contents" id="Skills">
+                    <ul>
+                        <li><i class="fa-brands fa-github"></i><span></i>GitHub</span><br> Project Track and Collaboration</li>
+                        <li><i id="dsa" class="fa-solid fa-code"></i><span>DSA</span><br> Problem Solving</li>
+                        <li><i id="communication" class="fa-solid fa-comments"></i><span>Communication Skills</span><br> Team Work</li>
+                        <!-- <li><i id="youtube" class="fa-brands fa-youtube"></i><span>Video Editing</span><br> Digital Content Creation</li> -->
+                    </ul>
+                 </div>
+                 <div class="contents" id="Education">
+                    <ul>
+                        <li><span>Full Stack Web Development 2022</span><br>Masai School</li>
+                        <li><span>BE in Mechanical Engineering, 2018</span><br>KDK College, Nagpur</li>
+                        <li><span>12th in Computer Science, 2014</span><br>Saraswati Junior College</li>
+                        <li><span>10th, 2012</span><br>Saraswati School</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-------------------------- GitHub ------------------------>
+    <div class="container git" id="github">
+        <h1 class="sub-title">GitHub Statistics</h1>
+        <div class="calendar"></div>
+    </div>
     
 
-    <!-- ==== style switcher start ==== -->
-    <div class="style-switcher">
-      <div class="style-switcher-toggler s-icon">
-         <i class="fa fa-cog fa-spin"></i>
-      </div>
-      <div class="day-night s-icon">
-         <i class="fas "></i>
-      </div>
-      <h4>Theme Colors</h4>
-      <div class="colors">
-         <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-         <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-         <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-         <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-         <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-      </div>
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+
+
+<!-- Prepare a container for your calendar. -->
+<!-- <div class="calendar">
+    Loading stuff
+    Loading the data just for you.
+</div> -->
+
+<script>
+    GitHubCalendar(".calendar", "dyshendre");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "dyshendre", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "dyshendre", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${dyshendre}`)
+       }
+    }).then(r => r.text())
+</script>
+    
+    <!-------------------------- Projects ------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images/888.png">
+                    <div class="layer">
+                        <h1>Uboric - Clone</h1>
+                        <p>An Ecommerce website. <br> This is a group project. <br> Tech Stack Used - HTML , CSS , Javascript.<br> In this project <br> I created the categories page and functionality part of add to cart, add to wishlist and payment page. <br> </p>
+                        <div>
+                        <a href="https://github.com/Rashmigautam16/hard-mist-4433" target="_blank">Source Code</a>
+                        <a href="https://tiny-unicorn-74cfe6.netlify.app/" target="_blank">Website</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/999.png">
+                    <div class="layer">
+                        <h1>Modesens - Clone</h1>
+                        <p>An Ecommerce website. <br> This is a group project. <br> Tech Stack Used - HTML , CSS , Javascript.<br> In this project <br> I created the community page, brands page and why modesens page. <br> </p>
+                        <div>
+                            <a href="https://github.com/VaibhavBedarkar/Team-ModSena" target="_blank">Source Code</a>
+                            <a href="https://fancy-nasturtium-dca941.netlify.app/" target="_blank">Website</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="images/EverHour.png">
+                    <div class="layer">
+                        <h1>Everhour - Clone</h1>
+                        <p>A Free time tracking software with hassle-free integrations. <br> This is a group project. <br> Tech Stack- HTML , CSS , JAVASCRIPT<br> I created the Tour page, Login page, welcome page, create project , Address Page. <br> The functionality we are adding in the project are: Sign Up & Log In , All static pages , Track project , Subscription , 
+                            Payment page.</p>
+                        <div>
+                        <a href="https://github.com/chinnijagadeesh/godly-pleasure-4788" target="_blank">Source Code</a>
+                        <a href="https://meek-sunflower-0fd026.netlify.app/" target="_blank">Website</a>
+                    </div>
+                    </div>
+                </div> -->
+                <!-- <div class="work">
+                    <img src="images/adminpanal.png">
+                    <div class="layer">
+                        <h1>Product Management System</h1>
+                        <p>It's a Ecommerce product management system where admin can track backend. <br> I am indevisual do it in between 3hours. <br> Tech Stack Used - HTML , CSS , Vanilla JS(Oops,ES6,ES5) , Server JS, Heroku.<br> I have applied all of
+                            my web development skills in a short project. <br> All the functionality are working like: Add product, Update price , Delete Product, sort and filter.  <br> </p>
+                        <div>
+                        <a href="https://github.com/biswarup-bhunia/Ecommerce-Admin-Panal" target="_blank">Source Code</a>
+                        <a href="https://flourishing-taiyaki-9461e0.netlify.app/" target="_blank">Website</a>
+                    </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+   
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i id="email" class="fa-solid fa-envelope-open"></i> dyshendre@gmail.com</p>
+                    <p><i id="call" class="fa-solid fa-square-phone"></i> +917058635994</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dinesh-shendre-00030723b/" target="_blank"><i id="linkedIN" class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/dyshendre" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder=" Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Written & Coded By Dinesh Shendre<i class="fa-solid fa-heart"></i></p>
+        </div>
     </div>
 
-
-    <!-- ==== style switcher End ==== -->
-  </body>
+</body>
 </html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
-<script src="js/script.js"></script>
-<script src="js/style-switcher.js"></script>
+
+<script src="index.js"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script>
+  GitHubCalendar(".calendar", "biswarup-bhunia", { responsive: true });
+</script>
