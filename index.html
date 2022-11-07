@@ -107,24 +107,90 @@
     </div>
         
     <!-------------------------- GitHub ------------------------>
+
+
     <div class="container git" id="github">
+        <h1 class="sub-title">GitHub Statistics</h1>
+        <div class="calendar"></div>
+    </div>
+    <!-- <div class="calendar" style=" color: #f49812" >
+       
+        Loading the data just for you.
+    </div> -->
+
+</div>
+</section>
+
+<script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<link
+rel="stylesheet"
+href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+
+
+
+<script>
+
+GitHubCalendar(".calendar", "dyshendre");
+
+GitHubCalendar(".calendar", "dyshendre", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "dyshendre", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${dyshendre}`)
+       }
+    }).then(r => r.text())
+</script>
+
+
+<script src="index.js"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script>
+  GitHubCalendar(".calendar", "biswarup-bhunia", { responsive: true });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container git" id="github">
         <h1 class="sub-title">GitHub Statistics</h1>
         <div class="calendar"></div>
     </div>
     
 
-<!-- Include the library. -->
+//Include the library.
 <script
   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
 
 
 
-<!-- Prepare a container for your calendar. -->
-<!-- <div class="calendar">
-    Loading stuff
-    Loading the data just for you.
-</div> -->
+// Prepare a container for your calendar. 
+//<div class="calendar">
+    //Loading stuff
+    //Loading the data just for you.
+//</div>
 
 <script>
     GitHubCalendar(".calendar", "dyshendre");
@@ -138,7 +204,7 @@
          return fetch(`https://your-proxy.com/github?user=${dyshendre}`)
        }
     }).then(r => r.text())
-</script>
+</script> -->
     
     <!-------------------------- Projects ------------------------>
     <div id="portfolio">
@@ -226,8 +292,4 @@
 </body>
 </html>
 
-<script src="index.js"></script>
-<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-<script>
-  GitHubCalendar(".calendar", "biswarup-bhunia", { responsive: true });
-</script>
+
