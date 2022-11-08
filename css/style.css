@@ -656,20 +656,7 @@ header .follow a:hover{
 
 
 
-
-
-/* project section styling */
-
-#project{
-    grid-template-columns: repeat(3,1fr);
-    gap:20px;
-    height:300px;
-    display: flex;
-}
-.pbox22{
-    border:1px solid red; 
-}
-.img22>img{
-    width:100%;
-    
+#contact22{
+    width:50%;
+    margin-left: 25%;
 }
