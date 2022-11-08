@@ -653,10 +653,10 @@ header .follow a:hover{
 }
 
 
-
-
-
-#contact22{
-    width:50%;
-    margin-left: 25%;
+#threebox{
+    display: flex;
+}
+.innerbox{
+    width:30%;
+    margin:0.5%;
 }
